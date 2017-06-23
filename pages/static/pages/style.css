@@ -1,0 +1,29 @@
+
+body {
+  font-family: Helvetica;
+  font-size: 13px;
+}
+
+#menu {
+  float: right;
+  margin-top: 20px;
+  width: 150px;
+  font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
+}
+
+#menu .title {
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu li {
+}
+
+#menu li a {
+  display: inline-block;
+  color: #0864c7;
+}

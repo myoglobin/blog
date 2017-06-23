@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {% block head %}
+        <title> home</title>
+    {% endblock %}
+  </head>
+  <body>
+    {% block body%}
+      <h3> Simple django static webpage </h3>
+      <p>
+        creating a simple static website      </p>
+        <br>
+        <p> create an app using manage.py. Then create url and views files in the new app. </p>
+      
+        <p>In the urls file of a django app, assign an emptey url pattern to the newly created app's urls file .
+        Now in the app's urls folder, direct the urls to different view functions that are rendering their respective html pages.
+        <br>
+        <p> Templating </p>
+        <p> Here use ninja2 templating language.
+          Ninja2 is used to bind data from python files to html. It is also used to extend thml files.
+
+      </p>
+      <p> Create a base html file with all the common features such as static imports, header and footer. Then extend this base file to create your static html pages <p>
+    {% endblock %}
+  </body>
+</html>
